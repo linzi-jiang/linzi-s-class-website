@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+p{
+    color: rgb(77, 77, 77);
+    font-size: 24pt;
+    text-align:center
+}
+a{
+    color: rgb(20, 20, 20);
+}
+a:hover {
+    color: rgb(77, 77, 77);
+  }

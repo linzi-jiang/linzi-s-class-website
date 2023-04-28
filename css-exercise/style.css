@@ -1,0 +1,19 @@
+body{
+    background-color: black;  
+}
+h1{
+    color: rgb(98, 98, 98);
+    font-size: 40pt;
+}
+p{
+    color: rgb(77, 77, 77);
+    font-size: 24pt;
+}
+a{
+    
+    color: rgb(20, 20, 20);
+    
+}
+a:hover {
+    color: rgb(77, 77, 77);
+  }

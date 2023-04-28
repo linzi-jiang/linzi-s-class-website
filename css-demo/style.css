@@ -1,0 +1,22 @@
+*{
+    color: antiquewhite;
+}
+body{
+    /* background-color: rgb(204, 204, 204); */
+    width: 800px;
+    font-size: 24pt;
+}
+h1{
+    font-size: 1rem;
+}
+p{
+    width: 50%;
+    background-color: pink;
+    font-size: 1rem;
+}
+a{
+    color: inherit;
+}
+#first{
+    color: red;
+}

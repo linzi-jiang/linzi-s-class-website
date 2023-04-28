@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(219, 219, 219);
+    text-align:center
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align:center
+}
+a{
+    color: rgb(0, 0, 0);
+    text-align:center
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.right-top {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
