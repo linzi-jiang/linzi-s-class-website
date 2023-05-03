@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>图片验证</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h2>请选择所有包含<span class="yellow">椅子</span>的图片</h2>
+        <button onclick="validate()">验证</button>
+      </div>
+      <div id="imageContainer">
+        <!-- JavaScript将在这里生成图片容器 -->
+      </div>
+      <div id="overlay" class="hidden">
+        <div id="message" class="overlay-text yellow"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
