@@ -1,0 +1,34 @@
+
+*, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 225, 225);
+}
+
+/* set grid template areas */
+  ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 20vw 15vw 20vw 25vw 20vw;
+    grid-template-rows: 25vh 20vh 15vh 20vh 20vh;
+    grid-template-areas:
+      "H B B B C"
+      "H A A E K"
+      "O A A E F"
+      "G G Q Q F"
+      "I I Q Q D";
+  }
+  
+
+/* style grid area */
+li {
+  padding: 10px;
+  border-width: 0.1px;
+  border-style: inset;
+  font-family: sans-serif;
+  border-color: #81362f;
+  font-size: 12px;
+}
+li[style="grid-area: H;"] {
+  font-size: 30px;
+}

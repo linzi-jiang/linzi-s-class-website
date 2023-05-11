@@ -1,0 +1,52 @@
+#rose {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  #rose > div {
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px 200px 10px 200px;
+    background-color: #ff00e6;
+    bottom: 0;
+  }
+  
+  
+  
+  #rose-2 {
+    transform: translateX(90px) translateY(-10px) rotate(90deg) ;
+    bottom: 0;
+  }
+  
+  #rose-3 {
+    transform: translateX(45px)translateY(-27px) rotate(45deg);
+    bottom: 0;
+  }
+  #rose-2 {
+  transform: translateX(90px) translateY(-10px) rotate(90deg);
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-name: dropAnimation;
+  animation-play-state: paused; /* 初始状态为暂停 */
+}
+
+#rose-2:hover {
+  animation-play-state: running; /* 鼠标悬停时开始动画 */
+}
+
+@keyframes dropAnimation {
+  0% {
+    transform: translateX(90px) translateY(-10px) rotate(90deg);
+  }
+  100% {
+    transform: translateX(90px) translateY(300px) rotate(150deg);
+  }
+}
+
+  
+  
