@@ -21,3 +21,18 @@ a{
     top: 20px;
     right: 30px;
   }
+  .highlight {
+    color: yellow;
+  }
+  .diban {
+    color: rgb(147, 49, 17);
+  }
+  .hua {
+        color: rgb(85, 237, 251);
+        text-shadow: 0.5px 0.5px 1px rgb(0, 86, 161);
+
+  }
+  .mima {
+    color: rgb(145, 145, 145);
+    
+  }
